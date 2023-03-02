@@ -24,10 +24,10 @@ class HomeView extends GetView<HomeController> {
               Text('HomeView ${controller.isBleOn.value}'),
               TextButton(
                 onPressed: (){
-                  Get.toNamed("/blue");
+                  Get.toNamed("/serve");
                 }, 
                 child: const Text(
-                  "连接蓝牙",
+                  "服务端模式",
                   style: TextStyle(
                     color: Colors.white,
                     fontSize: 18
